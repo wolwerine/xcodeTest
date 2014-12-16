@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023b662b4bf467f065aaa788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF61A25C062009F9F8F /* UIKit.framework */; };
+		0bba411b96460e27edc1c961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238DAFE1A25C062009F9F8F /* main.m */; };
+		0c4fdcee08fc6b5f0fcd8247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238DB021A25C062009F9F8F /* AppDelegate.m */; };
+		13b8fab202216edb1eede7bd /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9238DB0A1A25C063009F9F8F /* Images.xcassets */; };
+		473e04b39ad3e2b5392db975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9238DAFB1A25C062009F9F8F /* InfoPlist.strings */; };
+		62b07c73932e5fe868607ee1 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201b07c213d3cddbf09fb574 /* calabash.framework */; };
+		62c3a81db97c332f11585335 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435a0c616a0612153d6477f9 /* CFNetwork.framework */; };
 		9238DAF31A25C062009F9F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF21A25C062009F9F8F /* Foundation.framework */; };
 		9238DAF51A25C062009F9F8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF41A25C062009F9F8F /* CoreGraphics.framework */; };
 		9238DAF71A25C062009F9F8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF61A25C062009F9F8F /* UIKit.framework */; };
@@ -21,6 +28,10 @@
 		9238DB141A25C063009F9F8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF61A25C062009F9F8F /* UIKit.framework */; };
 		9238DB1C1A25C063009F9F8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9238DB1A1A25C063009F9F8F /* InfoPlist.strings */; };
 		9238DB1E1A25C063009F9F8F /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238DB1D1A25C063009F9F8F /* testTests.m */; };
+		a7f744411a9a95c51812e4ae /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF21A25C062009F9F8F /* Foundation.framework */; };
+		c259b0c23950645299093820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9238DB041A25C063009F9F8F /* Main.storyboard */; };
+		da27a15f02f37258c685f874 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9238DB081A25C063009F9F8F /* ViewController.m */; };
+		dde395d9ce7ce087d1a04e43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9238DAF41A25C062009F9F8F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201b07c213d3cddbf09fb574 /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		435a0c616a0612153d6477f9 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		920BC3E51A4036380080A505 /* test-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9238DAEF1A25C062009F9F8F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9238DAF21A25C062009F9F8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9238DAF41A25C062009F9F8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,6 +90,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		a3ca663a609eaf276911b8fd /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				dde395d9ce7ce087d1a04e43 /* CoreGraphics.framework in Frameworks */,
+				023b662b4bf467f065aaa788 /* UIKit.framework in Frameworks */,
+				a7f744411a9a95c51812e4ae /* Foundation.framework in Frameworks */,
+				62c3a81db97c332f11585335 /* CFNetwork.framework in Frameworks */,
+				62b07c73932e5fe868607ee1 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +120,7 @@
 			children = (
 				9238DAEF1A25C062009F9F8F /* test.app */,
 				9238DB101A25C063009F9F8F /* testTests.xctest */,
+				920BC3E51A4036380080A505 /* test-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +132,8 @@
 				9238DAF41A25C062009F9F8F /* CoreGraphics.framework */,
 				9238DAF61A25C062009F9F8F /* UIKit.framework */,
 				9238DB111A25C063009F9F8F /* XCTest.framework */,
+				435a0c616a0612153d6477f9 /* CFNetwork.framework */,
+				201b07c213d3cddbf09fb574 /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +184,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7cf39c6006fb8358ad0fac19 /* test-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542f9265e5bc950584770585 /* Build configuration list for PBXNativeTarget "test-cal" */;
+			buildPhases = (
+				e57e9ca12f2b25b2c736cb46 /* Sources */,
+				a3ca663a609eaf276911b8fd /* Frameworks */,
+				c0a76aebfd778d470cebf6b8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-cal";
+			productName = "test-cal";
+			productReference = 920BC3E51A4036380080A505 /* test-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9238DAEE1A25C062009F9F8F /* test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9238DB211A25C063009F9F8F /* Build configuration list for PBXNativeTarget "test" */;
@@ -219,6 +265,7 @@
 			targets = (
 				9238DAEE1A25C062009F9F8F /* test */,
 				9238DB0F1A25C063009F9F8F /* testTests */,
+				7cf39c6006fb8358ad0fac19 /* test-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +289,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		c0a76aebfd778d470cebf6b8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13b8fab202216edb1eede7bd /* Images.xcassets in Resources */,
+				473e04b39ad3e2b5392db975 /* InfoPlist.strings in Resources */,
+				c259b0c23950645299093820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,6 +317,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9238DB1E1A25C063009F9F8F /* testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		e57e9ca12f2b25b2c736cb46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				da27a15f02f37258c685f874 /* ViewController.m in Sources */,
+				0c4fdcee08fc6b5f0fcd8247 /* AppDelegate.m in Sources */,
+				0bba411b96460e27edc1c961 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +446,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +461,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,9 +508,68 @@
 			};
 			name = Release;
 		};
+		a1d82e00a716518c8af9faeb /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		b8dd8b4f4a728f48bd0e3908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				INFOPLIST_FILE = "test/test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		542f9265e5bc950584770585 /* Build configuration list for PBXNativeTarget "test-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				a1d82e00a716518c8af9faeb /* Debug */,
+				b8dd8b4f4a728f48bd0e3908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9238DAEA1A25C062009F9F8F /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -456,6 +586,7 @@
 				9238DB231A25C063009F9F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9238DB241A25C063009F9F8F /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +595,7 @@
 				9238DB261A25C063009F9F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
